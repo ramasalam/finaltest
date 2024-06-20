@@ -1,0 +1,26 @@
+.search-bar {
+    background-color: var(--beige);
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .search-bar .form-control {
+    width: auto;
+    border: 1px solid var(--soft-red);
+    border-radius: 0;
+  }
+  
+  .search-bar .btn {
+    background-color: var(--soft-red);
+    border-color: var(--soft-red);
+    color: #fff;
+  }
+  
+  .search-bar .btn:hover {
+    background-color: var(--gray);
+    border-color: var(--gray);
+  }
+  

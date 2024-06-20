@@ -1,0 +1,46 @@
+.movie-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Pastikan kartu mengambil seluruh tinggi kolom */
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .movie-card .image-container {
+    width: 100%;
+    height: 300px; /* Tetapkan tinggi tetap untuk gambar */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .movie-card .image-container img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .movie-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .movie-card .card-title {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .movie-card .card-text {
+    font-size: 0.875rem;
+    color: #777;
+  }
+  

@@ -1,0 +1,33 @@
+.header {
+    background-color: var(--light-red);
+    padding: 20px 0;
+  }
+  
+  .header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .nav-link:hover {
+    color: var(--gray) !important;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
